@@ -1,0 +1,49 @@
+.dashboard {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard__container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #dcdcdc;
+  padding: 30px;
+}
+
+.dashboard__header_left {
+  display: inline;
+  align-self: flex-start;
+  width: 50%;
+  text-align: left;
+}
+
+.dashboard__header_right {
+  display: inline;
+  align-self: flex-end;
+  width: 50%;
+  text-align: right;
+}
+
+.dashboard__header_left span {
+  color: #aa7700
+}
+
+.dashboard__btn {
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  padding: 10px 15px;
+  margin: 0 auto;
+  margin-top: 15px;
+  background-color: hsl(210, 12%, 15%);
+  cursor: pointer;
+}
+
+.dashboard div {
+  margin-top: 7px;
+}
